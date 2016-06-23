@@ -1,0 +1,170 @@
+/*CONTACTS CSS*/
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+	max-width: 900px;
+	margin: auto;
+}
+.NAVBAR	{
+	height: 50px;
+	margin-top: 20px;
+
+}
+
+.NAV-LINKS {
+	float: right;
+	padding-top: 10px;
+	text-decoration: none;
+	color:black;
+}
+ a{
+	text-decoration: none;
+	color:black;
+	padding-right: 10px
+}
+ a:hover{
+	color: grey;
+}
+.CONTACT-TIT{
+    background-image: url("../IMAGENES/indexbanner-bg2.jpg");
+    background-size:     cover;                      
+    background-repeat:   no-repeat;
+    height:450px;
+    text-align: center;
+    
+}
+    
+.CONTACT-TIT h1{ 
+    font-family: 'Raleway';
+    font-size: 45px;
+	font-weight: bolder;
+    color: white;
+}
+.CONTACT-TIT h3{
+    font-size: 12px;
+	color: white;
+	line-height: 35px;
+}
+.TIT-ART{
+	padding-top: 125px;
+}
+
+.FORM-TIT{
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	font-size: 45px;
+
+}
+.FORM-TIT h2{ 
+    font-family: 'Raleway';
+    font-size:40px;
+    font-weight: bold;
+    font-weight: bolder;
+	color: #142e3f;
+}
+.FORM-TIT h3{
+    color: grey;
+	font-size: 15px;
+	line-height: 35px;
+}
+.FORM {
+	text-align: center;
+	line-height: 35px;
+	padding-bottom: 100px;
+}
+.FIRST-COL{
+	text-align: left;
+	width: 445px;
+	display: inline-block;
+}
+.SECOND-COL{
+	text-align: left;
+	width: 445px;
+	display: inline-block;
+}
+.SECOND-COL textarea{
+	padding: 10px;
+	position: relative;
+	top: 20px;
+}
+
+.USER-INPUT {
+    width: 400px;
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.USER-INPUT-MES {
+    width: 100px;
+    height: 50px;
+    line-height: 35px;
+}
+.button {
+	text-align: center;
+    border: 2px solid #207cca;
+    background-color: #207cca;
+    color: #fafafa;
+    height: 37px;
+    width: 181px;
+    border-radius: 5px;
+    
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+} 
+.HOSTING{
+	height: 100px;
+	padding-top: 75px;
+    background-color:rgb(63, 87, 100);
+    margin: auto;
+    text-align: center;
+}
+.HOSTING p{
+	display: inline-block;
+	width: 125px;
+	color: white;
+	font-size: 20px;
+	position: relative;
+	right: 5px;
+}
+.HOSTING h4{
+	padding-left: 10px;
+	display: inline-block;
+	width: 400px;	
+	color: white;
+	font-size: 20px;
+	
+}
+.HOSTING h5{
+	display: inline-block;
+	width: 100px;
+	font-weight: bold;
+	font-size: 25px;
+	color: #207cca;
+}
+.FOOTER{
+	background-color:#142e3f;
+	height: 50px;
+	padding-top: 30px;
+	color: white;
+}
+.FOOTER h5{
+	display: inline-block;
+	width: 46%;
+	font-size: 10px;
+}
+.FOOTER article{
+	float: right;
+}
+.FOOTER a{
+	text-decoration: none;
+	color:white;
+	padding-right: 10px
+}
+.FOOTER a:hover{
+	color: grey;
+}
